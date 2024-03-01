@@ -1,13 +1,18 @@
-AutoLog
-AutoLog is a dynamic JavaScript code instrumentation tool designed to enhance debugging and development efficiency. By automatically inserting logging statements into your JavaScript code, AutoLog provides real-time insights into code execution flow, variable values, and function calls. This tool is invaluable for developers looking to understand complex codebases, track down elusive bugs, or simply gain deeper insights into how their code operates.
+#AutoLog
+A
+utoLog is a dynamic JavaScript code instrumentation tool designed to enhance debugging and development efficiency. By automatically inserting logging statements into your JavaScript code, AutoLog provides real-time insights into code execution flow, variable values, and function calls. This tool is invaluable for developers looking to understand complex codebases, track down elusive bugs, or simply gain deeper insights into how their code operates.
 
-Features
+##Features
 Automatic Logging: Inserts log statements before and after each line of code to track execution flow.
 Variable Tracking: Monitors and logs changes to variables, providing insights into the state of your application at any point in execution.
 Control Flow Insights: Logs entries and exits of functions, loops, and conditional blocks, helping you understand the flow of execution.
 Configurable Logging: Allows customization of what gets logged, enabling you to focus on the most relevant information.
 Easy Integration: Designed to be easily integrated into development and build processes, with support for popular JavaScript bundlers and build tools.
-Getting Started
+
+
+#G#etting Started
+
+
 Prerequisites
 Node.js (version 12.x or higher recommended)
 A JavaScript project to instrument
@@ -19,7 +24,7 @@ cd AutoLog
 npm install
 
 
-Usage
+##Usage
 To instrument your JavaScript code with AutoLog, run:
 
 node autolog.js your-source-file.js
